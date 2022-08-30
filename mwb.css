@@ -1,4 +1,6 @@
-.m{position: relative;left: 20%;bottom: 800px;
+.m{position: relative;left: 30%;bottom: 1200px;
 color: white;
 }
-section{color: rgb(red, green, blue);}
+div{
+    background-color: rgb(36, 8, 61);
+}
