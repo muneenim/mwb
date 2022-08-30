@@ -1,1 +1,4 @@
-.m{position: relative;left: 20%;bottom: 800px;}
+.m{position: relative;left: 20%;bottom: 800px;
+color: white;
+}
+section{color: rgb(red, green, blue);}
