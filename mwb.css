@@ -1,6 +1,13 @@
-.m{position: relative;left: 30%;bottom: 1200px;
+.m{position: relative;bottom: 800px;left: 10%;
 color: white;
+max-width: 80%;
 }
 div{
     background-color: rgb(36, 8, 61);
+}
+section img{
+    width: 100%;
+}
+header{
+    background-color: rgb(20,3,20);
 }
