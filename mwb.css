@@ -1,14 +1,31 @@
-.m{position: relative;left: 10%;bottom: 100px;
-color: white;
-max-width: 80%;
+body::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
 }
 div{
     background-color: rgb(36, 8, 61);
 }
 section img{
     width: 100%;
-    height: 1000px;
+    height: 100%;
 }
 header{
     background-color: rgb(20,3,20);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.m{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
